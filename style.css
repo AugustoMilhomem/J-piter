@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@514&family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&family=Viaoda+Libre&display=swap');
 
 #contato {
     scroll-margin-top: 80px; /* Ajuste conforme a altura do seu menu */
@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Playwrite VN", cursive;
     background: linear-gradient(135deg, #121212, #000000);
     color: #ffffff;
     line-height: 1.6;
@@ -72,6 +72,44 @@ nav ul.menu li a:hover::after {
 .section:nth-child(even) {
     background-image: url('Lua-de-jupter2.png');
 }
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section h1 {
+    color: #ff4444;
+    margin-bottom: 20px;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .section {
+        padding: 30px;
+    }
+
+    .section img {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 20px;
+    }
+
+    .section p {
+        font-size: 14px;
+    }
+}
+</style>
 
 .section::before {
     content: '';
